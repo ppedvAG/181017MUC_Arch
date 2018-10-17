@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloFactoryMethod", "Hallo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloBuilder", "GoF\HalloBuilder\HalloBuilder.csproj", "{1791F23C-9513-4362-87FB-EE9B595EE19A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloComposite", "GoF\HalloComposite\HalloComposite.csproj", "{34DA266F-E131-4938-93E6-A9AE5A19E910}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{1791F23C-9513-4362-87FB-EE9B595EE19A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1791F23C-9513-4362-87FB-EE9B595EE19A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1791F23C-9513-4362-87FB-EE9B595EE19A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34DA266F-E131-4938-93E6-A9AE5A19E910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34DA266F-E131-4938-93E6-A9AE5A19E910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34DA266F-E131-4938-93E6-A9AE5A19E910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34DA266F-E131-4938-93E6-A9AE5A19E910}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{462B80A9-2682-4504-8618-04C1989C6E72} = {DD985985-047F-4552-9941-9F8C4A630E74}
 		{FF7B884E-ED73-4A1C-96CE-416136A8A2DA} = {DD985985-047F-4552-9941-9F8C4A630E74}
 		{1791F23C-9513-4362-87FB-EE9B595EE19A} = {DD985985-047F-4552-9941-9F8C4A630E74}
+		{34DA266F-E131-4938-93E6-A9AE5A19E910} = {DD985985-047F-4552-9941-9F8C4A630E74}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06A1A733-E3C1-44FF-8BD6-E19B6A992C7A}
