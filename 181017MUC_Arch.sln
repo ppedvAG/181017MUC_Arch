@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloBuilder", "GoF\HalloBu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloComposite", "GoF\HalloComposite\HalloComposite.csproj", "{34DA266F-E131-4938-93E6-A9AE5A19E910}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloDekorator", "GoF\HalloDekorator\HalloDekorator.csproj", "{1AF3D68D-82FA-4D44-9529-E2B0FF78E97C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{34DA266F-E131-4938-93E6-A9AE5A19E910}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34DA266F-E131-4938-93E6-A9AE5A19E910}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34DA266F-E131-4938-93E6-A9AE5A19E910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AF3D68D-82FA-4D44-9529-E2B0FF78E97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF3D68D-82FA-4D44-9529-E2B0FF78E97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF3D68D-82FA-4D44-9529-E2B0FF78E97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF3D68D-82FA-4D44-9529-E2B0FF78E97C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{FF7B884E-ED73-4A1C-96CE-416136A8A2DA} = {DD985985-047F-4552-9941-9F8C4A630E74}
 		{1791F23C-9513-4362-87FB-EE9B595EE19A} = {DD985985-047F-4552-9941-9F8C4A630E74}
 		{34DA266F-E131-4938-93E6-A9AE5A19E910} = {DD985985-047F-4552-9941-9F8C4A630E74}
+		{1AF3D68D-82FA-4D44-9529-E2B0FF78E97C} = {DD985985-047F-4552-9941-9F8C4A630E74}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06A1A733-E3C1-44FF-8BD6-E19B6A992C7A}
