@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GoF", "GoF", "{DD985985-047
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloSingleton", "GoF\HalloSingleton\HalloSingleton.csproj", "{462B80A9-2682-4504-8618-04C1989C6E72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloFactoryMethod", "HalloFactoryMethod\HalloFactoryMethod.csproj", "{FF7B884E-ED73-4A1C-96CE-416136A8A2DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{462B80A9-2682-4504-8618-04C1989C6E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{462B80A9-2682-4504-8618-04C1989C6E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{462B80A9-2682-4504-8618-04C1989C6E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF7B884E-ED73-4A1C-96CE-416136A8A2DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF7B884E-ED73-4A1C-96CE-416136A8A2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF7B884E-ED73-4A1C-96CE-416136A8A2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF7B884E-ED73-4A1C-96CE-416136A8A2DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{462B80A9-2682-4504-8618-04C1989C6E72} = {DD985985-047F-4552-9941-9F8C4A630E74}
+		{FF7B884E-ED73-4A1C-96CE-416136A8A2DA} = {DD985985-047F-4552-9941-9F8C4A630E74}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06A1A733-E3C1-44FF-8BD6-E19B6A992C7A}
