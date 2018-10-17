@@ -43,8 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abendessen.cs" />
+    <Compile Include="Frühstück.cs" />
+    <Compile Include="IEssen.cs" />
+    <Compile Include="KeinEssen.cs" />
+    <Compile Include="Mittagessen.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Restaurant.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
