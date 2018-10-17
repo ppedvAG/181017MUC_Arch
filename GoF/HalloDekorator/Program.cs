@@ -10,6 +10,19 @@ namespace HalloDekorator
     {
         static void Main(string[] args)
         {
+
+            var lecker = new Käse(new Schinken(new Schinken(new Pizza())));
+
+            Console.WriteLine(lecker.Text);
+            Console.WriteLine(lecker.Preis);
+
+            var mitExtraScharf = new Knoblauch(lecker);
+
+            Console.WriteLine(mitExtraScharf.Text);
+            Console.WriteLine(mitExtraScharf.Preis);
+
+            Console.WriteLine("---ENDE---");
+            Console.ReadKey();
         }
     }
 }
