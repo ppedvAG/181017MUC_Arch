@@ -16,8 +16,6 @@ namespace ppedv.GoldCricket.Logic
         // Logik, die irgendwas mit dem Repository macht ...
         public void CreateDemoData()
         {
-            Random r = new Random();
-
             Person p1 = new Person { Vorname = "Tom", Nachname = "Ate", Alter = 10, Kontostand = 10000 };
             Person p2 = new Person { Vorname = "Anna", Nachname = "Nass", Alter = 20, Kontostand = 20000 };
             Person p3 = new Person { Vorname = "Peter", Nachname = "Silie", Alter = 30, Kontostand = 33000 };
