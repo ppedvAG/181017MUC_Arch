@@ -25,7 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ppedv.GoldCricket.Data.EF",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.GoldCricket.Data.EF.TestsNUnit", "ppedv.GoldCricket.Data.EF.TestsNUnit\ppedv.GoldCricket.Data.EF.TestsNUnit.csproj", "{C22C1B9F-116D-453B-80D6-E35BDF01CED7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.GoldCricket.Logic", "GoldCricket\ppedv.GoldCricket.Logic\ppedv.GoldCricket.Logic.csproj", "{98439FEA-FB59-4469-9C80-ABC0B5EA2BD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ppedv.GoldCricket.Logic", "GoldCricket\ppedv.GoldCricket.Logic\ppedv.GoldCricket.Logic.csproj", "{98439FEA-FB59-4469-9C80-ABC0B5EA2BD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.GoldCricket.UI.Konsole", "GoldCricket\ppedv.GoldCricket.UI.Konsole\ppedv.GoldCricket.UI.Konsole.csproj", "{C2063588-2584-4149-A61A-1B8098E891BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.GoldCricket.UI.ASP", "GoldCricket\ppedv.GoldCricket.UI.ASP\ppedv.GoldCricket.UI.ASP.csproj", "{C65DCC5E-660B-4D28-83F0-E6BBD7A7B85D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +77,14 @@ Global
 		{98439FEA-FB59-4469-9C80-ABC0B5EA2BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98439FEA-FB59-4469-9C80-ABC0B5EA2BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98439FEA-FB59-4469-9C80-ABC0B5EA2BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2063588-2584-4149-A61A-1B8098E891BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2063588-2584-4149-A61A-1B8098E891BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2063588-2584-4149-A61A-1B8098E891BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2063588-2584-4149-A61A-1B8098E891BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C65DCC5E-660B-4D28-83F0-E6BBD7A7B85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C65DCC5E-660B-4D28-83F0-E6BBD7A7B85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C65DCC5E-660B-4D28-83F0-E6BBD7A7B85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C65DCC5E-660B-4D28-83F0-E6BBD7A7B85D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +100,8 @@ Global
 		{171D0833-C189-4520-873F-4793B06D9A4C} = {0FDB3ADD-8660-4CFB-8927-5F1F0D926453}
 		{C22C1B9F-116D-453B-80D6-E35BDF01CED7} = {0FDB3ADD-8660-4CFB-8927-5F1F0D926453}
 		{98439FEA-FB59-4469-9C80-ABC0B5EA2BD4} = {0FDB3ADD-8660-4CFB-8927-5F1F0D926453}
+		{C2063588-2584-4149-A61A-1B8098E891BD} = {0FDB3ADD-8660-4CFB-8927-5F1F0D926453}
+		{C65DCC5E-660B-4D28-83F0-E6BBD7A7B85D} = {0FDB3ADD-8660-4CFB-8927-5F1F0D926453}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06A1A733-E3C1-44FF-8BD6-E19B6A992C7A}

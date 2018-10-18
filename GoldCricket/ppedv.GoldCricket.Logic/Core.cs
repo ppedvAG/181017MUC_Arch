@@ -1,6 +1,7 @@
 ﻿using ppedv.GoldCricket.Domain;
 using ppedv.GoldCricket.Domain.Interfaces;
 using System;
+using System.Linq;
 
 namespace ppedv.GoldCricket.Logic
 {
@@ -83,6 +84,13 @@ namespace ppedv.GoldCricket.Logic
             Repository.Add(a3);
             Repository.Add(a4);
             Repository.Add(a5);
+            Repository.Save();
+        }
+
+        public Person FindPersonWithOldestRunningApplication()
+        {
+            //return Repository.GetAll<Application>().OrderBy(x => x.Started).First().Owner;
+            return Repository.Query<Application>().OrderBy(x => x.Started).First().Owner;
         }
     }
 }

@@ -36,6 +36,11 @@ namespace ppedv.GoldCricket.Data.EF
             return context.Set<T>().FirstOrDefault(x => x.ID == ID); // IMMER aus der DB
         }
 
+        public IQueryable<T> Query<T>() where T : Entity
+        {
+            return context.Set<T>();
+        }
+
         public void Save()
         {
             context.SaveChanges();
