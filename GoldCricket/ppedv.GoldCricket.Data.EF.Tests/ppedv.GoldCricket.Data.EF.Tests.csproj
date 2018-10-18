@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.2.0" />
+    <PackageReference Include="NUnit" Version="3.11.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ppedv.GoldCricket.Data.EF\ppedv.GoldCricket.Data.EF.csproj" />
+    <ProjectReference Include="..\ppedv.GoldCricket.Domain\ppedv.GoldCricket.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
