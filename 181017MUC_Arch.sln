@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloDekorator", "GoF\Hallo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HalloObserver", "GoF\HalloObserver\HalloObserver.csproj", "{F8B2CD18-3422-456A-854C-54273D59065E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GoldCricket", "GoldCricket", "{0FDB3ADD-8660-4CFB-8927-5F1F0D926453}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -22,7 +22,6 @@ namespace HalloObserver
 
             aussensensor.MesswertSchicken();
 
-
             Console.WriteLine("---ENDE---");
             Console.ReadKey();
         }
