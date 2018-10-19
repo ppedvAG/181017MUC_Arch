@@ -7,12 +7,11 @@ namespace ppedv.GoldCricket.Logic
 {
     public class Core // Programmkern
     {
-        public Core(IRepository repository)
+        public Core(IUnitOfWork UnitOfWork)
         {
-            Repository = repository;
+            this.UnitOfWork = UnitOfWork;
         }
-
-        public IRepository Repository { get; set; }
+        public IUnitOfWork UnitOfWork { get; set; }
 
         // Logik, die irgendwas mit dem Repository macht ...
         public void CreateDemoData()
@@ -79,18 +78,24 @@ namespace ppedv.GoldCricket.Logic
             a4.Databases.Add(d4);
 
 
-            Repository.Add(a1);
-            Repository.Add(a2);
-            Repository.Add(a3);
-            Repository.Add(a4);
-            Repository.Add(a5);
-            Repository.Save();
+            var appRepo = UnitOfWork.GetRepository<Application>();
+            appRepo.Add(a1);
+            appRepo.Add(a2);
+            appRepo.Add(a3);
+            appRepo.Add(a4);
+            appRepo.Add(a5);
+            UnitOfWork.Save();
+            // UnitOfWork.PersonRepository.Add(p1);
         }
 
         public Person FindPersonWithOldestRunningApplication()
         {
             //return Repository.GetAll<Application>().OrderBy(x => x.Started).First().Owner;
-            return Repository.Query<Application>().OrderBy(x => x.Started).First().Owner;
+            return UnitOfWork.GetRepository<Application>()
+                .Query()
+                .OrderBy(x => x.Started)
+                .First()
+                .Owner;
         }
     }
 }
