@@ -13,20 +13,20 @@ namespace ppedv.GoldCricket.UI.ASP.Controllers
     {
         public PersonController()
         {
-            core = new Core(new EFRepository());
+            core = new Core(new EFUnitOfWork());
         }
         private Core core;
 
         // GET: Person
         public ActionResult Index()
         {
-            return View(core.Repository.GetAll<Person>());
+            return View(core.UnitOfWork.PersonRepository.GetAll());
         }
 
         // GET: Person/Details/5
         public ActionResult Details(int id)
         {
-            return View(core.Repository.GetByID<Person>(id));
+            return View(core.UnitOfWork.PersonRepository.GetByID(id));
         }
 
         public ActionResult GPWOA()
@@ -46,8 +46,8 @@ namespace ppedv.GoldCricket.UI.ASP.Controllers
         {
             try
             {
-                core.Repository.Add(newPerson);
-                core.Repository.Save();
+                core.UnitOfWork.PersonRepository.Add(newPerson);
+                core.UnitOfWork.Save();
 
                 return RedirectToAction("Index");
             }
@@ -60,7 +60,7 @@ namespace ppedv.GoldCricket.UI.ASP.Controllers
         // GET: Person/Edit/5
         public ActionResult Edit(int id)
         {
-            return View(core.Repository.GetByID<Person>(id));
+            return View(core.UnitOfWork.PersonRepository.GetByID(id));
         }
 
         // POST: Person/Edit/5
@@ -69,8 +69,8 @@ namespace ppedv.GoldCricket.UI.ASP.Controllers
         {
             try
             {
-                core.Repository.Update(editedPerson);
-                core.Repository.Save();
+                core.UnitOfWork.PersonRepository.Update(editedPerson);
+                core.UnitOfWork.Save();
 
                 return RedirectToAction("Index");
             }
@@ -83,7 +83,7 @@ namespace ppedv.GoldCricket.UI.ASP.Controllers
         // GET: Person/Delete/5
         public ActionResult Delete(int id)
         {
-            return View(core.Repository.GetByID<Person>(id));
+            return View(core.UnitOfWork.PersonRepository.GetByID(id));
         }
 
         // POST: Person/Delete/5
@@ -92,11 +92,11 @@ namespace ppedv.GoldCricket.UI.ASP.Controllers
         {
             try
             {
-                var bitteLöschMich = core.Repository.GetByID<Person>(id);
+                var bitteLöschMich = core.UnitOfWork.PersonRepository.GetByID(id);
                 if (bitteLöschMich != null)
                 {
-                    core.Repository.Delete(bitteLöschMich);
-                    core.Repository.Save();
+                    core.UnitOfWork.PersonRepository.Delete(bitteLöschMich);
+                    core.UnitOfWork.Save();
                 }
 
                 return RedirectToAction("Index");
