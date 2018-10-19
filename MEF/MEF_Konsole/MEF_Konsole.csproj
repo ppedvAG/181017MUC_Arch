@@ -49,8 +49,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\MEF_Interfaces\MEF_Interfaces.csproj">
-      <Project>{0962b9f1-85bb-455f-896e-493576d7db27}</Project>
+    <ProjectReference Include="..\MEF_Interfaces\MEF_Interfaces.csproj">
+      <Project>{0962B9F1-85BB-455F-896E-493576D7DB27}</Project>
       <Name>MEF_Interfaces</Name>
     </ProjectReference>
   </ItemGroup>

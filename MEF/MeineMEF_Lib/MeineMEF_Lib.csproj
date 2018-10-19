@@ -47,7 +47,7 @@
     <Compile Include="Rechteck.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\MEF_Interfaces\MEF_Interfaces.csproj">
+    <ProjectReference Include="..\MEF_Interfaces\MEF_Interfaces.csproj">
       <Project>{0962B9F1-85BB-455F-896E-493576D7DB27}</Project>
       <Name>MEF_Interfaces</Name>
     </ProjectReference>

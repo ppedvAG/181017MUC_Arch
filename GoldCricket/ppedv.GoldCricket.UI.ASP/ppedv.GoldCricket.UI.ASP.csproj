@@ -224,12 +224,12 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ppedv.GoldCricket.Data.EF\ppedv.GoldCricket.Data.EF.csproj">
-      <Project>{171d0833-c189-4520-873f-4793b06d9a4c}</Project>
+    <ProjectReference Include="..\ppedv.GoldCricket.Data.EF\ppedv.GoldCricket.Data.EF.csproj">
+      <Project>{4DD81F3F-0393-43C7-9A25-567516585F31}</Project>
       <Name>ppedv.GoldCricket.Data.EF</Name>
     </ProjectReference>
     <ProjectReference Include="..\ppedv.GoldCricket.Domain\ppedv.GoldCricket.Domain.csproj">
-      <Project>{37a7c351-8bd7-4b32-b27b-c43fddfddfef}</Project>
+      <Project>{37A7C351-8BD7-4B32-B27B-C43FDDFDDFEF}</Project>
       <Name>ppedv.GoldCricket.Domain</Name>
     </ProjectReference>
     <ProjectReference Include="..\ppedv.GoldCricket.Logic\ppedv.GoldCricket.Logic.csproj">

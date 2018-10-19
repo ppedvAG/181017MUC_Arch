@@ -50,17 +50,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Domäne\Domäne.csproj">
+    <ProjectReference Include="..\Domäne\Domäne.csproj">
       <Project>{2E711D2A-7E72-4779-A207-453B3110D925}</Project>
       <Name>Domäne</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Logik\Logik.csproj">
-      <Project>{D3C9A783-16C3-46CF-A057-9E3CBF8976DE}</Project>
-      <Name>Logik</Name>
     </ProjectReference>
     <ProjectReference Include="..\FreeFeatures\FreeFeatures.csproj">
       <Project>{1AC5D655-1B26-4BE0-908C-4196931C5B92}</Project>
       <Name>FreeFeatures</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logik\Logik.csproj">
+      <Project>{D3C9A783-16C3-46CF-A057-9E3CBF8976DE}</Project>
+      <Name>Logik</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

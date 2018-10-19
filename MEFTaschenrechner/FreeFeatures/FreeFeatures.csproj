@@ -46,7 +46,7 @@
     <Compile Include="Subtraktion.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Domäne\Domäne.csproj">
+    <ProjectReference Include="..\Domäne\Domäne.csproj">
       <Project>{2E711D2A-7E72-4779-A207-453B3110D925}</Project>
       <Name>Domäne</Name>
     </ProjectReference>
