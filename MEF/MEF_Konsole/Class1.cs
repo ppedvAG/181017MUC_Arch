@@ -15,7 +15,6 @@ namespace MEF_Konsole
 
         static void Main()
         {
-
             var catalog = new DirectoryCatalog(".");
             var container = new CompositionContainer(catalog);
 
