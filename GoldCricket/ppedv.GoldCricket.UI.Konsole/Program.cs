@@ -17,12 +17,12 @@ namespace ppedv.GoldCricket.UI.Konsole
             // 2) Demodaten generieren wenn die DB leer ist
             // 3) Alle Personen ausgeben 
 
-            Core core = new Core(new EFRepository());
+            Core core = new Core(new EFUnitOfWork());
 
-            if (core.Repository.GetAll<Person>().Count() == 0) // es gibt keine Personen
+            if (core.UnitOfWork.PersonRepository.GetAll().Count() == 0) // es gibt keine Personen
                 core.CreateDemoData();
 
-            foreach (Person p in core.Repository.GetAll<Person>())
+            foreach (Person p in core.UnitOfWork.PersonRepository.GetAll())
             {
                 Console.WriteLine($"{p.Vorname} {p.Nachname} - Alter:{p.Alter}, Kontostand: {p.Kontostand}€");
             }
